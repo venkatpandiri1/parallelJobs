@@ -1,6 +1,6 @@
 def testList = ["a", "b", "c", "d"]
 def branches = [:] 
-
+def NODE_NAME = "slave1"
 for (int i = 0; i < 4 ; i++) {
        int index=i, branch = i+1
        stage ("branch_${branch}"){ 
